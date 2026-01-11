@@ -1,5 +1,5 @@
 class Jolt < Formula
-  desc 'A beautiful TUI for monitoring battery and energy usage'
+  desc 'A TUI for monitoring battery and energy usage'
   homepage 'https://getjolt.sh'
   version '0.3.0'
   license 'MIT'
