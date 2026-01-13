@@ -5,31 +5,31 @@
 class Jolt < Formula
   desc "Terminal-based battery and energy monitor for macos and linux"
   homepage "https://github.com/jordond/jolt"
-  url "https://github.com/jordond/jolt/archive/refs/tags/1.0.0.tar.gz"
-  sha256 "bda86b186fc779614a51e48a5c79f85eb0e8a70c7be4703e68860287f62dbf77"
+  url "https://github.com/jordond/jolt/archive/refs/tags/1.1.0.tar.gz"
+  sha256 "625f0556f8b4ffa26a74fd9bcedcbdde725146d819b5613c15c7469d358cb9a9"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/jordond/jolt/releases/download/1.0.0/jolt-1.0.0-darwin-amd64.tar.gz"
-      sha256 "1e1b1c5638a45aa3895470a8fc13421a71260faa02c295879111b36af479a490"
+      url "https://github.com/jordond/jolt/releases/download/1.1.0/jolt-1.1.0-darwin-amd64.tar.gz"
+      sha256 "29c582aa7a9407b2049b11d9583315688e8d3a86fd4e9ceac8725153f564a5ed"
     end
 
     on_arm do
-      url "https://github.com/jordond/jolt/releases/download/1.0.0/jolt-1.0.0-darwin-arm64.tar.gz"
-      sha256 "292ebfbde18fdb02da0bba30e16c93992ae911d08dcbaea5e402aa13f9e83598"
+      url "https://github.com/jordond/jolt/releases/download/1.1.0/jolt-1.1.0-darwin-arm64.tar.gz"
+      sha256 "7e47910a3b797c46619a97e4e3f1af887d79871be7d18e091c62b20a08836b8c"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/jordond/jolt/releases/download/1.0.0/jolt-1.0.0-linux-amd64.tar.gz"
-      sha256 "b7e14a32ca886abe77b6a8a80772f47b2d516d9167aa9037b46e03c370a19d79"
+      url "https://github.com/jordond/jolt/releases/download/1.1.0/jolt-1.1.0-linux-amd64.tar.gz"
+      sha256 "a392bba83c7e0f969dcb536462afd26bac93d4dd4c498bcfdad13c2817e089b7"
     end
 
     on_arm do
-      url "https://github.com/jordond/jolt/releases/download/1.0.0/jolt-1.0.0-linux-arm64.tar.gz"
-      sha256 "156b97faccd27375ebf007f39c57a592a56c962ea25b96f52f7d1ebce24f019d"
+      url "https://github.com/jordond/jolt/releases/download/1.1.0/jolt-1.1.0-linux-arm64.tar.gz"
+      sha256 "ae45bf532c6c1b62fa1c50984ea1654b2fef86a5fcd200c4f2ad10fcdc7331e7"
     end
   end
 
