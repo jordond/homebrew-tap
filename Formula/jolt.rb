@@ -5,31 +5,31 @@
 class Jolt < Formula
   desc "Terminal-based battery and energy monitor for macos and linux"
   homepage "https://github.com/jordond/jolt"
-  url "https://github.com/jordond/jolt/archive/refs/tags/1.1.1.tar.gz"
-  sha256 "c99a3bdd927b2826d3787e7d30ec743b57dd57a77b60f225c916a253fe9a39be"
+  url "https://github.com/jordond/jolt/archive/refs/tags/1.1.2.tar.gz"
+  sha256 "52aed00bf7a3da6b36d10faf7856784d650c96fdcee5e9dd62b17e62a72361b3"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/jordond/jolt/releases/download/1.1.1/jolt-1.1.1-darwin-amd64.tar.gz"
-      sha256 "aa54ec3f81df96881bd9fd806d631bb58982ffa8b87a98d574cb72070af369ca"
+      url "https://github.com/jordond/jolt/releases/download/1.1.2/jolt-1.1.2-darwin-amd64.tar.gz"
+      sha256 "2c2c918035dc8af43f57f3d741763c59c2f38ff1632343c47709d6211435f68a"
     end
 
     on_arm do
-      url "https://github.com/jordond/jolt/releases/download/1.1.1/jolt-1.1.1-darwin-arm64.tar.gz"
-      sha256 "c5b8056a86295b114d3909b56477d686290d6dfae60179e0d4a2c67f4b5ccc67"
+      url "https://github.com/jordond/jolt/releases/download/1.1.2/jolt-1.1.2-darwin-arm64.tar.gz"
+      sha256 "26731543116eb0c8f8dca51996026af3dbec132bde51372496251ad84a2e3d6a"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/jordond/jolt/releases/download/1.1.1/jolt-1.1.1-linux-amd64.tar.gz"
-      sha256 "961071768b22b32526350471e2b40776c4345b9ceb11ab9c993978dc2635bcc3"
+      url "https://github.com/jordond/jolt/releases/download/1.1.2/jolt-1.1.2-linux-amd64.tar.gz"
+      sha256 "d862eb1297fb66ec2e4a4c823646cdcbfb2b6cfc2d5174c39597ccdf55be78c6"
     end
 
     on_arm do
-      url "https://github.com/jordond/jolt/releases/download/1.1.1/jolt-1.1.1-linux-arm64.tar.gz"
-      sha256 "d8a1233459c46abf2909cf3ba9a7559ecfdc7c4548728761083936e56848b87c"
+      url "https://github.com/jordond/jolt/releases/download/1.1.2/jolt-1.1.2-linux-arm64.tar.gz"
+      sha256 "ae7a4e28f5b60f855b9bf1d29545fbcd671f533c0996ef6339cc7e84ebf936f0"
     end
   end
 
