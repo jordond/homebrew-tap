@@ -5,31 +5,31 @@
 class Jolt < Formula
   desc "Terminal-based battery and energy monitor for macos and linux"
   homepage "https://github.com/jordond/jolt"
-  url "https://github.com/jordond/jolt/archive/refs/tags/1.1.0.tar.gz"
-  sha256 "625f0556f8b4ffa26a74fd9bcedcbdde725146d819b5613c15c7469d358cb9a9"
+  url "https://github.com/jordond/jolt/archive/refs/tags/1.1.1.tar.gz"
+  sha256 "c99a3bdd927b2826d3787e7d30ec743b57dd57a77b60f225c916a253fe9a39be"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/jordond/jolt/releases/download/1.1.0/jolt-1.1.0-darwin-amd64.tar.gz"
-      sha256 "29c582aa7a9407b2049b11d9583315688e8d3a86fd4e9ceac8725153f564a5ed"
+      url "https://github.com/jordond/jolt/releases/download/1.1.1/jolt-1.1.1-darwin-amd64.tar.gz"
+      sha256 "aa54ec3f81df96881bd9fd806d631bb58982ffa8b87a98d574cb72070af369ca"
     end
 
     on_arm do
-      url "https://github.com/jordond/jolt/releases/download/1.1.0/jolt-1.1.0-darwin-arm64.tar.gz"
-      sha256 "7e47910a3b797c46619a97e4e3f1af887d79871be7d18e091c62b20a08836b8c"
+      url "https://github.com/jordond/jolt/releases/download/1.1.1/jolt-1.1.1-darwin-arm64.tar.gz"
+      sha256 "c5b8056a86295b114d3909b56477d686290d6dfae60179e0d4a2c67f4b5ccc67"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/jordond/jolt/releases/download/1.1.0/jolt-1.1.0-linux-amd64.tar.gz"
-      sha256 "a392bba83c7e0f969dcb536462afd26bac93d4dd4c498bcfdad13c2817e089b7"
+      url "https://github.com/jordond/jolt/releases/download/1.1.1/jolt-1.1.1-linux-amd64.tar.gz"
+      sha256 "961071768b22b32526350471e2b40776c4345b9ceb11ab9c993978dc2635bcc3"
     end
 
     on_arm do
-      url "https://github.com/jordond/jolt/releases/download/1.1.0/jolt-1.1.0-linux-arm64.tar.gz"
-      sha256 "ae45bf532c6c1b62fa1c50984ea1654b2fef86a5fcd200c4f2ad10fcdc7331e7"
+      url "https://github.com/jordond/jolt/releases/download/1.1.1/jolt-1.1.1-linux-arm64.tar.gz"
+      sha256 "d8a1233459c46abf2909cf3ba9a7559ecfdc7c4548728761083936e56848b87c"
     end
   end
 
