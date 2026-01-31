@@ -5,31 +5,31 @@
 class Jolt < Formula
   desc "Terminal-based battery and energy monitor for macos and linux"
   homepage "https://github.com/jordond/jolt"
-  url "https://github.com/jordond/jolt/archive/refs/tags/1.1.2.tar.gz"
-  sha256 "52aed00bf7a3da6b36d10faf7856784d650c96fdcee5e9dd62b17e62a72361b3"
+  url "https://github.com/jordond/jolt/archive/refs/tags/1.1.3.tar.gz"
+  sha256 "9a2d5180b044bbb42e5cc948f403035371cd3a6ba824e292dfb619d4e045e8d3"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/jordond/jolt/releases/download/1.1.2/jolt-1.1.2-darwin-amd64.tar.gz"
-      sha256 "2c2c918035dc8af43f57f3d741763c59c2f38ff1632343c47709d6211435f68a"
+      url "https://github.com/jordond/jolt/releases/download/1.1.3/jolt-1.1.3-darwin-amd64.tar.gz"
+      sha256 "b48d5f08a2ce2613f5f5fb35d2ca2dd0f47e1bbbfb0e8c9754cb16265a583f1b"
     end
 
     on_arm do
-      url "https://github.com/jordond/jolt/releases/download/1.1.2/jolt-1.1.2-darwin-arm64.tar.gz"
-      sha256 "26731543116eb0c8f8dca51996026af3dbec132bde51372496251ad84a2e3d6a"
+      url "https://github.com/jordond/jolt/releases/download/1.1.3/jolt-1.1.3-darwin-arm64.tar.gz"
+      sha256 "a582d53f116012b3bf0a413bc4207e207e5dc5123350e2cf114acaafb9f78d3e"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/jordond/jolt/releases/download/1.1.2/jolt-1.1.2-linux-amd64.tar.gz"
-      sha256 "d862eb1297fb66ec2e4a4c823646cdcbfb2b6cfc2d5174c39597ccdf55be78c6"
+      url "https://github.com/jordond/jolt/releases/download/1.1.3/jolt-1.1.3-linux-amd64.tar.gz"
+      sha256 "7bc6c0eefc91e8c027af6b29dc59f126838e0a4ea70c78eed4410d2b5d2e8714"
     end
 
     on_arm do
-      url "https://github.com/jordond/jolt/releases/download/1.1.2/jolt-1.1.2-linux-arm64.tar.gz"
-      sha256 "ae7a4e28f5b60f855b9bf1d29545fbcd671f533c0996ef6339cc7e84ebf936f0"
+      url "https://github.com/jordond/jolt/releases/download/1.1.3/jolt-1.1.3-linux-arm64.tar.gz"
+      sha256 "ca391cd10be33e8c59b43fd33b8ea48b80fe15b4e4b99d2497c07254e5281493"
     end
   end
 
