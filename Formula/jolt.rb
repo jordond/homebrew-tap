@@ -5,31 +5,31 @@
 class Jolt < Formula
   desc "Terminal-based battery and energy monitor for macos and linux"
   homepage "https://github.com/jordond/jolt"
-  url "https://github.com/jordond/jolt/archive/refs/tags/1.1.3.tar.gz"
-  sha256 "9a2d5180b044bbb42e5cc948f403035371cd3a6ba824e292dfb619d4e045e8d3"
+  url "https://github.com/jordond/jolt/archive/refs/tags/1.2.0.tar.gz"
+  sha256 "c5b51a3fa93493c4977ae7e62aaf29dcd5f58ca116662d5848ed566cd7b68a40"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/jordond/jolt/releases/download/1.1.3/jolt-1.1.3-darwin-amd64.tar.gz"
-      sha256 "b48d5f08a2ce2613f5f5fb35d2ca2dd0f47e1bbbfb0e8c9754cb16265a583f1b"
+      url "https://github.com/jordond/jolt/releases/download/1.2.0/jolt-1.2.0-darwin-amd64.tar.gz"
+      sha256 "e46a3f12dc05f7415bb365dc490f255ee855a75c0c921b4f9dfd929c2332ac8b"
     end
 
     on_arm do
-      url "https://github.com/jordond/jolt/releases/download/1.1.3/jolt-1.1.3-darwin-arm64.tar.gz"
-      sha256 "a582d53f116012b3bf0a413bc4207e207e5dc5123350e2cf114acaafb9f78d3e"
+      url "https://github.com/jordond/jolt/releases/download/1.2.0/jolt-1.2.0-darwin-arm64.tar.gz"
+      sha256 "51617a447e768d4b0692f63dd33d4d8bc68e95c535c8e46341de962adeef8324"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/jordond/jolt/releases/download/1.1.3/jolt-1.1.3-linux-amd64.tar.gz"
-      sha256 "7bc6c0eefc91e8c027af6b29dc59f126838e0a4ea70c78eed4410d2b5d2e8714"
+      url "https://github.com/jordond/jolt/releases/download/1.2.0/jolt-1.2.0-linux-amd64.tar.gz"
+      sha256 "941a1b79b078f4d522622ae1329fb86723be7d7a84d1786ea5b917744dd0b1a4"
     end
 
     on_arm do
-      url "https://github.com/jordond/jolt/releases/download/1.1.3/jolt-1.1.3-linux-arm64.tar.gz"
-      sha256 "ca391cd10be33e8c59b43fd33b8ea48b80fe15b4e4b99d2497c07254e5281493"
+      url "https://github.com/jordond/jolt/releases/download/1.2.0/jolt-1.2.0-linux-arm64.tar.gz"
+      sha256 "3eab165b15256ddc28c9f7242237587d34603b87981118f0b2b627e2c5a78bcc"
     end
   end
 
