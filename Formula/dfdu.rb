@@ -1,25 +1,25 @@
 class Dfdu < Formula
   desc "Disk usage browser for the terminal"
   homepage "https://github.com/jordond/dfdu"
-  version "0.3.0"
+  version "0.4.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/jordond/dfdu/releases/download/v0.3.0/dfdu-aarch64-apple-darwin.tar.xz"
-      sha256 "305c48deaa7dffdb38ec11fea75e1fe6b88737df068693c6c7bfc1f2c705eaa0"
+      url "https://github.com/jordond/dfdu/releases/download/v0.4.0/dfdu-aarch64-apple-darwin.tar.xz"
+      sha256 "5fd62398661195fda771a4baed7553e84c2309eb0543a7236147e5961f5af709"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/jordond/dfdu/releases/download/v0.3.0/dfdu-x86_64-apple-darwin.tar.xz"
-      sha256 "907e7207e2ce2bf69aab05f1e4e730f5c416034d7547d4263f9fe6cf7768eae9"
+      url "https://github.com/jordond/dfdu/releases/download/v0.4.0/dfdu-x86_64-apple-darwin.tar.xz"
+      sha256 "ab023a94ce3b069bbfb1da46aab5068f3ecbf6232cae254b4d0ee624cf2699f2"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/jordond/dfdu/releases/download/v0.3.0/dfdu-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "47433d029bccc3c73afc96f594a10a74aaed90e86ff397227b1d4d4b560a3bfc"
+      url "https://github.com/jordond/dfdu/releases/download/v0.4.0/dfdu-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "692c9a9744b0bd4234022ab7ec9889b4694e03124b4719b44d11345be1779360"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/jordond/dfdu/releases/download/v0.3.0/dfdu-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "e8c549c61c72ce3c8e8d0745f123ffb48051c234421910775e32f34383584aef"
+      url "https://github.com/jordond/dfdu/releases/download/v0.4.0/dfdu-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "691c0d865432b283d45fcbe6bd7b5155b88ebe1f97d413563c8a953a74b2131e"
     end
   end
   license "MIT"
