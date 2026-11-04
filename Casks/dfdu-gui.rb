@@ -3,9 +3,9 @@
 cask "dfdu-gui" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "0.5.1"
-  sha256 arm:   "66cedd7c0e0cd83ac76eac1d38902e9015a6a83388f52d7bef55d67ba009174f",
-         intel: "1fff1acfb4fd8457cef9f4fe44217136cfdbc03ba78b3251a5a4191bd4b97832"
+  version "0.5.2"
+  sha256 arm:   "3df9e99bb5833d165741ea994fba7efb79872997e5254b82bb60b8eef026c2c4",
+         intel: "faad0747e9507a7c9a0e667409cde4b4b148ae520fd1614f726427b5ff4395a0"
 
   url "https://github.com/jordond/dfdu/releases/download/v#{version}/dfdu-gui-#{arch}-apple-darwin.dmg"
   name "dfdu"
